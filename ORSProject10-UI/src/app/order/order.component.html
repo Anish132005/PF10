@@ -36,9 +36,10 @@
         <div class="card-body shadow-lg grad">
           <form name="prescriptionForm">
 
-            <h2 *ngIf="!form.data.id" class="text-primary font-weight-bold text-center"
+            <h2 *ngIf="!form.data.id" class="text-primary font-weight-bold text-center">
               {{ 'order anish123' | translate }}
             </h2>
+            
             <h2 *ngIf="form.data.id" class="text-primary font-weight-bold text-center">
               {{ 'Update Order' | translate }}
             </h2>
