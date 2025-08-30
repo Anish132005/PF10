@@ -37,7 +37,11 @@
           <form name="prescriptionForm">
 
             <h2 *ngIf="!form.data.id" class="text-primary font-weight-bold text-center">
+<<<<<<< HEAD
               {{ 'Order Now' | translate }}
+=======
+                {{ 'Order Now' | translate }}
+>>>>>>> 3fdeda434bfea6534a21bc88a9013f609b8703d7
             </h2>
             
             <h2 *ngIf="form.data.id" class="text-primary font-weight-bold text-center">
@@ -117,13 +121,6 @@
               </div>
               <span class="alertRedColor">{{ form.inputerror.quantity }}</span>
             </div>
-
-            
-
-
-
-            
-
 
 
             <!-- <select class="form-control" name="customer" [(ngModel)]="form.data.customer" aria-label="ngSelected">
